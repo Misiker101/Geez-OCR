@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/back_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/settings"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/ocr2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/geez_ocr"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <!--            -->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="+56 65985"-->
+            <!--                android:textColor="#ccffff"-->
+            <!--                android:textSize="12sp"-->
+            <!--                android:layout_gravity="center"/>-->
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cat_background3"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="@string/reset"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/card_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- Night Mode-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/nightmode"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/round_night"
+                        android:padding="12dp"
+                        android:src="@drawable/nigh" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/nightmode"
+                        android:text="@string/night_mode"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:minWidth="48dp"
+                        android:minHeight="48dp"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/nightModeSwitch" />
+
+                </RelativeLayout>
+
+                <!-- Notifications -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/notifications"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/round_language"
+                        android:padding="12dp"
+                        android:src="@drawable/notification" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/notifications"
+                        android:text="@string/notification"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:minWidth="48dp"
+                        android:minHeight="48dp"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/notificationSwitch" />
+
+                </RelativeLayout>
+
+                <!--    Save -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/save_icon"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/round_notification"
+                        android:padding="12dp"
+                        android:src="@drawable/saved" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/save_icon"
+                        android:text="@string/save_scanned_image"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:minWidth="48dp"
+                        android:minHeight="48dp"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/languageSwitch" />
+
+                </RelativeLayout>
+
+                <!--    Scanning Vibration -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/vibration"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/round_back_second"
+                        android:padding="12dp"
+                        android:src="@drawable/vibrate" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/vibration"
+                        android:text="@string/scanning_vibration"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:minWidth="48dp"
+                        android:minHeight="48dp"
+                        android:switchMinWidth="50dp"
+                        android:theme="@style/languageSwitch" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/card_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- Security -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/security_icon"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/round_notification"
+                        android:padding="12dp"
+                        android:src="@drawable/privacy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/security_icon"
+                        android:text="@string/security"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/right" />
+
+
+                </RelativeLayout>
+
+                <!-- Language -->
+                <RelativeLayout
+                    android:id="@+id/lang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/language"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/round_notification"
+                        android:padding="12dp"
+                        android:src="@drawable/lang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/language"
+                        android:text="@string/language"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/right" />
+
+
+                </RelativeLayout>
+
+                <!-- Text Size -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/textSize"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/cat_background4"
+                        android:padding="12dp"
+                        android:src="@drawable/text_siz" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/textSize"
+                        android:text="@string/text_size"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/right" />
+
+
+                </RelativeLayout>
+
+                <!-- Rate -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/rate"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/cat_background3"
+                        android:padding="12dp"
+                        android:src="@drawable/rate" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/rate"
+                        android:text="@string/rate"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <!--                <ImageView-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:src="@drawable/text_siz"-->
+                    <!--                    android:layout_alignParentEnd="true"-->
+                    <!--                    android:layout_centerVertical="true"/>-->
+
+
+                </RelativeLayout>
+
+                <!-- Recommend -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/recommend"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/cat_background1"
+                        android:padding="12dp"
+                        android:src="@drawable/recommend" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/recommend"
+                        android:text="@string/recommend"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <!--                <ImageView-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:src="@drawable/text_siz"-->
+                    <!--                    android:layout_alignParentEnd="true"-->
+                    <!--                    android:layout_centerVertical="true"/>-->
+
+
+                </RelativeLayout>
+
+                <!-- About -->
+                <RelativeLayout
+                    android:id="@+id/about_rel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/card_back"
+                    android:clipToPadding="false"
+                    android:padding="10dp">
+                    <!-- notification #13B2c3   6124B1-->
+                    <ImageView
+                        android:id="@+id/about"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/cat_background4"
+                        android:padding="12dp"
+                        android:src="@drawable/abou" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/about"
+                        android:text="@string/about"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <!--                <ImageView-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:src="@drawable/text_siz"-->
+                    <!--                    android:layout_alignParentEnd="true"-->
+                    <!--                    android:layout_centerVertical="true"/>-->
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

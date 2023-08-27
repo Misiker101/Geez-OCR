@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geez-OCR</string>
+    <string name="scan">አሁን ቃኝ</string>
+    <string name="show">አሳይ</string>
+    <string name="get_started">ጀምር</string>
+    <string name="scan_documents">ሰነዶችን ይቃኙ</string>
+    <string name="hello">ሰላም</string>
+    <string name="find">ሰነዶችዎን ያግኙ</string>
+    <string name="word">ወርድ</string>
+    <string name="pdf">ፒዲኤፍ</string>
+    <string name="jpeg">ጄፒጂ</string>
+    <string name="qr">QR ኮድ</string>
+    <string name="copy">ቅዳ</string>
+    <string name="book">መጻሕፍት</string>
+    <string name="id">መታወቂያ</string>
+    <string name="printed">የታተመ ጽሑፍ</string>
+    <string name="handwritten">በእጅ የተጻፈ ጽሑፍ</string>
+    <string name="share">አጋራ</string>
+    <string name="home">መነሻ</string>
+    <string name="gallery">ማዕከለ-ስዕላት</string>
+    <string name="export">ወደ ውጪ ላክ</string>
+    <string name="show_process">ሂደቱን አሳይ</string>
+    <string name="about">ስለዚህ መተግበሪያ</string>
+    <string name="models">ሞዴሎች</string>
+    <string name="services">አገልግሎቶች</string>
+    <string name="scan_convert">ይቃኙ እና ይቀይሩ</string>
+    <string name="image_word_pdf">ፎቶዎች ወርድ ፒዲኤፍ</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="geez_ocr">ግእዝ-ኦ.ሲ.አር</string>
+    <string name="reset">ዳግም አስጀምር</string>
+    <string name="back">ተመለስ</string>
+    <string name="next">ቀጥል</string>
+    <string name="skip">ዝለል</string>
+    <string name="night_mode">የምሽት ሁነታ</string>
+    <string name="notification">ማስታወቂያ</string>
+    <string name="scan_now">አሁን ይቃኙ</string>
+    <string name="save_scanned_image">የተቃኘ ምስል አስቀምጥ</string>
+    <string name="scan_recognize_convert">ይቃኙ ይለዩ ይቀይሩ</string>
+    <string name="scanning_vibration">ንዝረትን ያድርጉ</string>
+    <string name="security">ደህንነት እና ግላዊነት</string>
+    <string name="language">ቋንቋ ይምረጡ</string>
+    <string name="text_size">የጽሑፍ መጠን</string>
+    <string name="choose_language">ቋንቋ ይምረጡ</string>
+    <string name="rate">ለዚህ መተግበሪያ ደረጃ ይስጡት</string>
+    <string name="tesseract">ቴሴራክት</string>
+    <string name="conv2d">ኮንቭ2D</string>
+    <string name="process">ሂደት</string>
+    <string name="process_image">ምስሉን ይቃኙ እና ይወቁ</string>
+    <string name="camera_activity">የተከረከመ ምስል</string>
+    <string name="camera">ካሜራ</string>
+    <string name="lang">አማርኛ</string>
+    <string name="pick_image_from">ምስል ከ ይምረጡ</string>
+    <string name="enable_camera_and_storage_permission">እባክዎ የካሜራ እና የማከማቻ ፈቃዶችን አንቃ</string>
+    <string name="enable_storage_permission">እባክዎ የማከማቻ ፈቃዶችን አንቃ</string>
+    <string name="recommend">ይህን መተግበሪያ እንመክራለን</string>
+
+    <string name="send_file">ፋይሎቹን በመላክ ላይ። እባክዎ ለአፍታ ይጠብቁ.</string>
+    <string name="connect_server_error">ውይ! የሆነ ስህተት ተከስቷል። እባክዎ ዳግም ይሞክሩ.</string>
+    <string name="image_verifier">እባክዎ የተመረጠው ፋይል ምስል መሆኑን ያረጋግጡ።</string>
+    <string name="enter_row_number">የረድፍ ቁጥር አስገባ</string>
+    <string name="server_url">http://10.140.184.231:5000</string>
+    <string name="server_url_desc">Server Url: </string>
+    <string name="get_data">መረጃ ያግኙ</string>
+
+    <!--    walkthrough slide-->
+    <string name="heading_one">Quick &amp; Easy</string>
+    <string name="heading_two">Batch Scanning</string>
+    <string name="heading_three">Send Directly</string>
+    <string name="heading_fourth">Anywhere</string>
+
+    <string name="desc_one">ለፈጣን ውጤቶች ምስሎችን    ይቃኙ</string>
+    <string name="desc_two">በአንድ ጊዜ ብዙ ምስሎችን   ያስኬዱ</string>
+    <string name="desc_three">በቀጥታ ወደ ፒሲዎ ወይም ሌሎች የተገናኙ መሣሪያዎች ይቅዱ</string>
+    <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+
+
+<!--    testing-->
+    <string name="desc_one1">Scan images for instant results</string>
+    <string name="desc_two1">Process multiple image at one sitting</string>
+    <string name="desc_three1">Directly copy to your pc or other connected devices</string>
+
+    <!--    about-->
+    <string name="about_description">ይህ መተግበሪያ በጅማ ዩኒቨርሲቲ የኮምፒውተር ሳይንስ ተማሪዎች እንደ የመጨረሻ አመት ፕሮጀክት የተሰራ ነው።</string>
+
+
+</resources>

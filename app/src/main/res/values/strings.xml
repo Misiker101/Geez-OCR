@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name" translatable="false">Geez-OCR</string>
+    <string name="scan">Scan</string>
+    <string name="show">Show</string>
+    <string name="get_started">Get Started</string>
+    <string name="scan_documents">Scan Documents</string>
+    <string name="hello">Hello There</string>
+    <string name="find">Find Your Documents</string>
+    <string name="word">Word</string>
+    <string name="pdf">Pdf</string>
+    <string name="jpeg">Jpeg</string>
+    <string name="qr">QR Code</string>
+    <string name="copy">Copy</string>
+    <string name="book">Book</string>
+    <string name="id">Id Card</string>
+    <string name="printed">Printed Text</string>
+    <string name="handwritten">Handwritten Text</string>
+    <string name="share">Share</string>
+    <string name="home">Home</string>
+    <string name="gallery">Gallery</string>
+    <string name="export">Export</string>
+    <string name="show_process">Show Process</string>
+    <string name="about">About</string>
+    <string name="models">Models</string>
+    <string name="services">Services</string>
+    <string name="scan_convert">Scan &amp; Convert</string>
+    <string name="image_word_pdf">Image Word Pdf</string>
+    <string name="settings">Settings</string>
+    <string name="geez_ocr">Geez-OCR</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="notification">Notification</string>
+    <string name="scan_now">Scan Now</string>
+    <string name="save_scanned_image">Save Scanned Image</string>
+    <string name="scan_recognize_convert">Scan Recognize Convert</string>
+    <string name="scanning_vibration">Scanning Vibration</string>
+    <string name="security">Security &amp; Privacy</string>
+    <string name="language">Language</string>
+    <string name="text_size">Text Size</string>
+    <string name="choose_language">Choose Language…</string>
+    <string name="rate">Rate This App</string>
+    <string name="tesseract">Tesseract</string>
+    <string name="conv2d">Conv2D</string>
+    <string name="process">About</string>
+    <string name="process_image">Process</string>
+    <string name="camera_activity">Cropped Image</string>
+    <string name="camera">Camera</string>
+    <string name="lang">ENG</string>
+    <string name="pick_image_from">Pick Image From</string>
+    <string name="enable_camera_and_storage_permission">Please Enable Camera and Storage Permissions</string>
+    <string name="enable_storage_permission">Please Enable Storage Permissions</string>
+    <string name="recommend">Recommend to a friend</string>
+
+
+    <string name="send_file">Sending the Files. Please Wait ...</string>
+    <string name="connect_server_error">Oops! Something went wrong. \n Please try again.</string>
+    <string name="image_verifier">Please Make Sure the Selected File is an Image.</string>
+    <string name="enter_row_number">Enter row number.</string>
+    <string name="server_url">http://10.140.184.231:5000</string>
+    <string name="server_url_desc">Server Url: </string>
+    <string name="get_data">Get Data</string>
+
+
+    <!--    walkthrough slide-->
+    <string name="heading_one">Quick &amp; Easy</string>
+    <string name="heading_two">Batch Scanning</string>
+    <string name="heading_three">Send Directly</string>
+    <string name="heading_fourth">Anywhere</string>
+
+    <string name="desc_one">Scan images for instant results</string>
+    <string name="desc_two">Process multiple image at one sitting</string>
+    <string name="desc_three">Directly copy to your pc or other connected devices</string>
+    <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+
+    <!--    Test delete later the 1 in above-->
+    <string name="desc_one1">ለፈጣን ውጤቶች ምስሎችን ይቃኙ</string>
+    <string name="desc_two1">በአንድ ጊዜ ብዙ ምስሎችን ያስኬዱ</string>
+    <string name="desc_three1">በቀጥታ ወደ ፒሲዎ ወይም ሌሎች የተገናኙ መሣሪያዎች ይቅዱ</string>
+
+<!--    about-->
+    <string name="about_description">This app is developed by computer science students at jimma university as a final year project</string>
+
+
+</resources>

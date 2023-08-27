@@ -1,0 +1,2 @@
+# Geez-OCR
+OCR app
